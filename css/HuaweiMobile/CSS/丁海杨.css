@@ -1,0 +1,144 @@
+#d01{
+    height: 120px;
+
+
+}
+#hlogo{
+    width: 28%;
+
+    float: left;
+    height: 120px;
+}
+#nova7{
+    width: 24%;
+
+    float: left;
+    height: 120px;
+}
+#zhihui{
+    width: 24%;
+    float: left;
+
+    height: 120px;
+}
+
+#logo{
+    line-height: 120px;
+    position: absolute;
+    top:45px;
+    left: 25px;
+}
+#hhh{
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 46px;
+    font-size: 23px;
+    font-family: 宋体;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+
+}
+#z{
+    position: absolute;
+    padding-top: 46px;
+    left: 250px;
+}
+#aaa{
+    position: absolute;
+    padding-left: 125px;
+    padding-top: 20px;
+}
+
+#bbb{
+    position: absolute;
+    padding-left: 125px;
+    padding-top: 40px;
+    text-decoration: none;
+    font-family: "Times New Roman";
+    color: black;
+}
+#ccc{
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 70px;
+}
+#shouji{
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#diannao{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+#ddd{
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-family: "Times New Roman";
+    color:black;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+#eee{
+    position: absolute;
+    padding-left: 138px;
+    padding-top: 41px;
+    text-decoration: none;
+    font-family: Verdana;
+    color:black;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+#fff{
+    position: absolute;
+    padding-left: 145px;
+    padding-top: 68px;
+}
+#sjp40{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#ggg{
+    position: absolute;
+    padding-left: 135px;
+    padding-top: 26px;
+    text-decoration: none;
+    font-family: "Times New Roman";
+    color:black;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: large;
+}
+#iii{
+    position: absolute;
+    padding-left: 220px;
+    padding-top: 26px;
+    text-decoration: none;
+    font-family: "Times New Roman";
+    color:black;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: large;
+}
+#jjj{
+    position: absolute;
+    padding-left: 133px;
+    padding-top: 46px;
+    text-decoration: none;
+    font-family: "Times New Roman";
+    color:black;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+#kkk{
+    position: absolute;
+    padding-left: 110px;
+    padding-top: 74px;
+}
+

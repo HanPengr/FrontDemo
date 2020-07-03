@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #all{
+
+            margin: 0px auto;
+            height: 1000px;
+            width: 960px;
+        }
+        #header{
+            height: 50px;
+        }
+        #logo{
+            height: 50px;
+            width: 101px;
+            float:left;
+        }
+        #hr{
+            height: 50px;
+            width: 200px;
+            float: right;
+            padding-left: 0px;
+            position: relative;
+
+        }
+        #banner{
+            background: url("images/banner.png");
+            height: 120px;
+            margin: 5px auto;
+
+        }
+        #img{
+            background: url("images/icon_count.png");
+            height: 16px;
+            width: 45px;
+            position:relative;
+            top:15px;
+        }
+        #hr ul{
+            list-style-type: none;
+            background: #EAFFFA;
+            padding-left: 0px;
+            margin-top: 12px;
+        }
+        #hr li{
+            font-size: small;
+            display: inline;
+        }
+        #ul {
+
+            width: 200px;
+        }
+        #navi{
+            height: 40px;
+            background: orangered;
+            position: relative;
+        }
+        #navi ul{
+            list-style-type: none;
+            position: absolute;
+            bottom: 0px;
+            padding-left:0px;
+        }
+        #navi li{
+            margin: 10px;
+            display: inline;
+        }
+        #navi li a{
+            color: cornsilk;
+            text-decoration:none;
+        }
+        #book{
+            border: 2px solid palegreen;
+            height: 340px;
+            background: white;
+            position: relative;
+        }
+        #book #bimg{
+            height: 39px;
+            width: 240px;
+            position:absolute;
+            left: -13px;
+        }
+        #book #b{
+            height: 320px;
+            width: 560px;
+            position: absolute;
+        }
+        #book #b #b1{
+            position: absolute;
+            top: 55px;
+        }
+        #book #b #text1{
+            height:320px ;
+            width: 280px;
+            float: right;
+        }
+        #book #b #text1 #text1p{
+            font-family: Verdana,"宋体";
+            font-size: 15px;
+            line-height: 20px;
+        }
+        #book #b #text1 #text1p a{
+            font-size: 17px;
+            text-decoration-line: none;
+        }
+        #book #b #text1 #text1p #a1{
+            font-size: 15px;
+            text-decoration-line: none;
+            color: darkred;
+        }
+        #book #bb{
+            height: 320px;
+            width: 400px;
+            float:right;
+        }
+        #book #bb #b2{
+            height: 160px;
+            width: 400px;
+        }
+        #book #bb #b2 #b22{
+            height:100px;
+            width: 100px;
+            float: left;
+        }
+        #book #bb #b2 #text2{
+            height: 120px;
+            width: 290px;
+            float: right;
+        }
+        #book #bb #text2 p{
+            font-family: Verdana,"宋体";
+            font-size: 15px;
+            line-height: 20px;
+        }
+        #book #bb #text2 #aa{
+            font-size: 15px;
+            text-decoration-line: none;
+        }
+        #book #bb #text2 #a22{
+            font-size: 13px;
+        }
+        #book #bb #text2 #a21{
+            font-size: 12px;
+            color: grey;
+        }
+        #book #bb #b3{
+
+            height: 100px;
+            width: 400px;
+
+        }
+        #book #bb #b3 #b33{
+
+            height:120px;
+            width: 100px;
+            float: left;
+        }
+        #book #bb #b3 #text3{
+
+            height: 120px;
+            width: 290px;
+            float: right;
+        }
+        #book #bb #text3 p{
+            font-family: Verdana,"宋体";
+            font-size: 15px;
+            line-height: 20px;
+        }
+        #book #bb #text3 #aaa{
+            font-size: 15px;
+            text-decoration-line: none;
+        }
+        #book #bb #text3 #a33{
+            font-size: 13px;
+        }
+        #book #bb #text3 #a31{
+            font-size: 12px;
+            color: grey;
+        }
+        #copyright{
+            height: 600px;
+            width: 950px;
+        }
+        #copyright a{
+            font-size: 12px;
+            font-family: Verdana,"宋体";
+            color: gray;
+        }
+        #copyright #dd{
+            height: 48px;
+            width: 40px;
+            display: inline;
+        }
+        #book #One{
+            height: 48px;
+            width: 27px;
+            position: absolute;
+            left: 14px;
+            top:60px;
+            z-index: 1;
+        }
+        #book #Two{
+            height: 37px;
+            width: 28px;
+            z-index:1;
+            position: absolute;
+            right:380px;
+            top: 60px;
+        }
+        #book #Three{
+            height: 36px;
+            width: 27px;
+            z-index:1;
+            position: absolute;
+            right: 380px;
+            top:200px;
+        }
+    </style>
+</head>
+<body>
+<div id="all">
+<div id="header">
+    <div id="logo"><a href="DangDang.html"><img src="images/logo.jpg" height="48" width="101"/></a>
+    </div>
+    <div id="hr">
+        <div id="img"></div>
+        <div id="ul">
+            <ul>
+                <li>唯品会</li>
+                <li>当当优品</li>
+                <li>数字馆</li>
+                <li>都看阅读</li>
+            </ul>
+        </div>
+    </div>
+    <div id="title"></div>
+</div>
+    <div id="navi">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">图书</a></li>
+            <li><a href="#">音响</a></li>
+            <li><a href="#">童装</a></li>
+            <li><a href="#">服装</a></li>
+            <li><a href="#">鞋子</a></li>
+            <li><a href="#">运动</a></li>
+            <li><a href="#">箱包</a></li>
+            <li><a href="#">美妆</a></li>
+            <li><a href="#">珠宝</a></li>
+            <li><a href="#">家居</a></li>
+            <li><a href="#">食品</a></li>
+            <li><a href="#">酒</a></li>
+            <li><a href="#">手机</a></li>
+            <li><a href="#">数码</a></li>
+            <li><a href="#">电脑</a></li>
+            <li><a href="#">家电</a></li>
+
+
+        </ul>
+    </div>
+
+    <div id="banner">
+
+    </div>
+
+    <div id="book">
+        <div id="bimg">
+            <img src="images/bg_bang.gif">
+        </div>
+        <div id="One"><img src="images/bookNo1.gif" height="48" width="27"/></div>
+        <div id="Two"><img src="images/bookNo2.gif" height="37" width="28"/></div>
+        <div id="Three"><img src="images/bookNo3.gif" height="36" width="27"/></div>
+        <div id="b">
+            <div id="b1">
+                <img src="images/book-01.jpg" height="260" width="260"/>
+            </div>
+            <div id="text1">
+                <br/><br/><br/>
+                <p id="text1p"><a href="#">偷影子的人</a><br/>
+                作者:陆]克李维(MrcLery)著段韵灵 译
+                出版社:湖南文艺出版社<br>
+                当当价:<a id="a1">￥17.90</a><br/>
+                不知道姓氏的克蕾儿。这就是你在我生命里的角色，
+                我童年时的小女孩，今日蜕变成了女人，一段青梅竹
+                马的回忆，-个时间之神没有应允的原望。-个老是
+                受班上同学欺负的废弱小男孩。因为拥有一种特殊能
+                力而强大:他能偷别人的影子”，因而能看见他</p>
+            </div>
+        </div>
+
+        <div id="bb">
+            <div id="b2">
+                <br/><br/><br/>
+                <div id="b22"><img src="images/book-02.jpg" height="100" width="100"/></div>
+            <div id="text2">
+                <p><a id="aa"href="#">看见央视知名记者、主持人柴静:十年个人成
+                    长的告白，中国社会交迁的备忘</a><br/>
+                    作者:紮静蓍<br/>
+                    出版社:广西师范大学出版社<br/>
+                    <a id="a22">￥29.40</a> <a id="a21">7.4折 </a><br/>
+                </p>
+            </div>
+            </div>
+            <div id="b3">
+                <br/><br/>
+                <div id="b33">
+                    <img src="images/book-03.jpg" height="100" width="100"/>
+                </div>
+            <div id="text3"><p>
+               <a id="aaa"href="#">改变孩子先改变自己</a><br/>
+                作者:贾容韬贾毅著<br/>
+                出版社:作家出版社<br/>
+                <a id="a33">￥21.20</a> <a id="a31">7.4折 </a><br/>
+                </p></div>
+            </div>
+        </div>
+        </div>
+   <div id="copyright">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a>Copyright(C) 当当网 2004-2013，All Rights Reserved</a>
+<div id="dd"><img src="images/validate.gif" height="48" width="40"/></div>
+       <a>京ICP证041189好出版物经营许可证 新出发京批字第直0673号</a>
+   </div>
+</div>
+</body>
+</html>

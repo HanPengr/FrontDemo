@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            border:1px solid darkred;
+        }
+        #d1{
+            height: 300px;
+            width: 300px;
+            padding-top: 50px;
+            padding-left: 50px;
+            margin-top: 100px;
+            margin-left: 100px;
+            /*margin:0px auto;*/    /*上下为0 左右自动*/
+        }
+        #d2{
+            height: 100px;
+            width: 100px;
+        }
+        .td{
+            padding: 10px 20px 20px 5px;  /*上右下左*/
+        }
+        p{
+            margin: 50px 10px 5px 10px; /*上右下左*/
+        }
+    </style>
+</head>
+<body>
+<!--内边距-->
+<div id="d1">
+    <div id="d2"></div>
+</div>
+<table border="1px">
+    <tr>
+        <td class="td">
+            通过内边距控制表格
+        </td>
+    </tr>
+
+</table>
+<p>
+    设置p标签的外边距
+</p>
+</body>
+</html>

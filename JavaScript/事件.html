@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--onclick 属性 用于给当前div 元素绑定单击时间，
+当单击div范围后， 会立即触发单击事件 执行 showdate函数-->
+<div id="d1" onclick="showdate()">
+    单击查看当前时间
+</div>
+<script>
+    //定义方法
+    function showdate(){
+        //1.获取div元素对象
+        var d1 = document.getElementById("d1");
+        /*通过元素的id获取一个元素js对象*/
+        // 2.设置div元素内容
+        d1.innerHTML = new Date().toLocaleString();
+        /*js对象.innerHTML  获取元素内部的所有内容/修改元素内部的内容*/
+    }
+</script>
+</body>
+</html>

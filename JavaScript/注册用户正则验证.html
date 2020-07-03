@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    用户名:<input name="username" type="text"> <span id="username"></span>
+    <p></p>
+    邮箱:<input name="email" type="text"onclick="yzusername()" ><span id="email"></span>
+    <p></p>
+    提交：<input type="submit" value="提交" onclick="yzemail()"/>
+</form>
+
+<script>
+    function yzusername() {
+        var username= document.getElementsByName("username")[0].value
+        var reg= /^[A-Za-z0-9]+$]/;
+        var boolean = reg.test(username)
+        if(boolean==false){
+            document.getElementById("username").innerHTML="<a style='color: red'>格式错误</a>"
+        }else{
+            document.getElementById("username").innerHTML="<a style='color: green'>格式正确</a>"
+        }
+
+    }
+    function yzemail() {
+        var email= document.getElementsByName("email")[0].value
+        var reg= /^[A-Za-z0-9]+$]/;
+        var boolean = reg.test(email)
+        if(boolean==false){
+            document.getElementById("email").innerHTML="<a style='color: red'>格式错误</a>"
+        }else{
+            document.getElementById("email").innerHTML="<a style='color: green'>格式正确</a>"
+        }
+
+    }
+
+</script>
+</body>
+</html>

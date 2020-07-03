@@ -1,0 +1,59 @@
+#06{
+    height: 300px;
+    width: 790px;
+    margin-left: 10px;
+    float:right;
+    position: relative;
+}
+.yz2{
+    width: 192px;
+    border: 1px solid #EEEEEE;
+    padding: 0px 100px 0px 0px;
+    margin: 0px 100px;
+    float: left;
+
+}
+.yz21:focus{
+    border: 1px solid #EEEEEE;
+    border:none;
+    outline:none;
+}
+.yz211 a:hover{
+    color: red;
+}
+.yz2111{
+    width: 188px;
+    height: 32px;
+    color: #666666;
+    font-size: 12px;
+    font-family: Tahoma,arial,宋体;
+    padding: 0px 0px 0px 10px;
+    /*border: 1px solid #EEEEEE;*/
+}
+.yz2111 a:link{
+    width: 160px;
+    height: 32px;
+    color: #7E7E7E;
+    font-size: 12px;
+    font-family: Tahoma,arial,宋体;
+    text-decoration: none;
+    align: center;
+}
+.yz2111{
+    /*Html 列表实现展开和收起具体实现方法：
+    document.all["div1"].style.display="block"; //显示
+    或
+    document.all["div1"].style.display="none"; //隐藏*/
+    display: block;
+}
+.yz2112{
+    font-family: Tahoma,arial,宋体;
+}
+.yz2112 a:link{
+    width: 148px;
+    height: 32px;
+    color: #7E7E7E;
+    font-size: 12px;
+    text-decoration: none;
+
+}

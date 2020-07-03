@@ -1,0 +1,55 @@
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.wrap span{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.wrap a{
+    text-decoration: none;
+    color: #8b8b8b;
+    font-size: 12px;
+}
+
+.wrap{
+    width: 90%;
+
+
+    bottom: 0px;
+    left: 5%;
+    box-sizing: border-box;
+    padding: 25px 0px;
+    font-family: tahoma, arial, 宋体;
+    overflow: hidden;
+    min-width: 1200px;
+}
+
+.wrap img{
+    width: 100px;
+    margin-left: -5px;
+}
+
+.wrap div{
+    float: left;
+    line-height: 20px;
+}
+
+.div1{
+    margin-left: 13%;
+}
+
+.div2,
+.div3,
+.div4,
+.div5{
+    margin-left: 15%;
+}

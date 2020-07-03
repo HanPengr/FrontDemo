@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="切换图片" onclick="changeImg()">
+<img id="img" src="../day-html/tv01.jpg">
+<script>
+    var flag =false;
+    function changeImg() {
+            //1.获取元素对象
+        var img=document.getElementsByTagName("img")[0]
+        if (flag){
+            img.src="../day-html/tv01.jpg"
+            flag=false
+        }else{
+            img.src="../day-html/tv02.jpg"
+            flag=true
+        }
+
+    }
+
+</script>
+</body>
+</html>

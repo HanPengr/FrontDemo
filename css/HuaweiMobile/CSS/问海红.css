@@ -1,0 +1,58 @@
+/*宝贝分类部分中查看所有宝贝 到 耳机音箱部分选择器*/
+.type2{
+    width: 192px;
+    border: 1px solid #EEEEEE;
+    padding: 0px 100px 0px 0px;
+    margin: 0px 100px;
+}
+.type21:focus{
+
+}
+.type211 a:hover{
+    color: red;
+}
+.type2111:focus{
+    width: 188px;
+    height: 32px;
+    color: #666666;
+    font-size: 12px;
+    font-family: Tahoma,arial,宋体;
+    padding: 0px 0px 0px 10px;
+    /*border: 1px solid #EEEEEE;*/
+    border: 1px solid #EEEEEE;
+    outline-color:#EEEEEE;
+
+}
+.type2111 a:link{
+    width: 160px;
+    height: 32px;
+    color: #7E7E7E;
+    font-size: 12px;
+    font-family: Tahoma,arial,宋体;
+    text-decoration: none;
+    align: center;
+}
+.type21111{
+    /*Html 列表实现展开和收起具体实现方法：
+    document.all["div1"].style.display="block"; //显示
+    或
+    document.all["div1"].style.display="none"; //隐藏*/
+    display: block;
+}
+.type2112{
+    font-family: Tahoma,arial,宋体;
+}
+.type2112 a:link{
+    width: 148px;
+    height: 32px;
+    color: #7E7E7E;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+.type21122{
+
+    font-family: 宋体;
+}
+
+/*宝贝分类部分中查看所有宝贝 到 耳机音箱部分选择器*/

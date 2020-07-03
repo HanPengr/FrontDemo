@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            height: 50px;
+            width: 50px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<div class="top_img">
+</div>
+<script>
+    window.onload = function () {
+        var tab = 0;
+        var imgs = ["../day-html/tv01.jpg","../day-html/tv02.jpg","../day-html/tv03.jpg"]
+        //创建定时器
+        setInterval(function () {goNext()},3)
+        // 切换下一张
+        function goNext() {
+            if(tab+1>=imgs.length){
+                tab=0;
+            }else{
+                tab++;
+            }
+            document.getElementsByClassName("top_img")
+                [0].style.backgroundImage="url("+imgs[tab]+")";
+
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<script src="hello.js"></script>
+    <!--通过标签引入-->
+</head>
+<body>
+<script>
+    alert("浏览器弹窗提示：");
+    var a = 2.4+3.6;
+    alert(a);
+    var str = '单引号';
+    var str2 = "双引号";
+    alert(str);
+    alert(str2);
+    var boolean = true;
+    alert(boolean);
+
+    var arr = ["张三",10,true];
+
+    var a = 10;
+    var b = '10';
+    alert(a==b)// 俩个等于比较值（字面量）
+    alert(a===b)//三个等于比较类型和值
+
+    /*条件语句*/
+    var score = prompt("请输入你的成绩：")
+    if (score >60){
+        alert("及格")
+    }else{
+        alert("不及格")
+    }
+    /*循环语句*/
+    for (var i = 0; i <arr.length ; i++) {
+        alert(arr[i])
+    }
+    //通过Array构造函数创建数组
+    var arr1 = new Array();
+    var arr2 = new Array(1,2,3);
+    //通过数组直接量创建数组
+    var arr3 = [];
+    var arr4 = [1,2,3,4];
+
+    // 方法
+    var a = 10;
+    var b = 20;
+    var c = add(a,b)
+    alert(c)
+    function add(a,b){
+        return a+b;
+    }
+
+</script>
+</body>
+</html>

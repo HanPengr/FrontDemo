@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*标签选择器*/
+        h1{
+            color: red;
+        }
+        /*id 选择器*/
+        #d1{
+            color: cornflowerblue;
+            font-size: large;
+            border: 1px solid;
+        }
+        /*类选择器*/
+        .p1{
+            color: chocolate;
+        }
+        /* 后代选择器*/
+        #d2 div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+        }
+        /*  儿子直接后代选择器*/
+        #d2>div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+        }
+        /*交集选择器*/
+        li.price{
+            color:red;
+        }
+        /*并集选择器*/
+        p,#h3,.a{
+            color: darkblue;
+        }
+        /*相邻兄弟选择器*/
+        h1,h1+p{
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+<h1>标签选择器</h1>
+<h1>id选择器</h1>           <!--标签相同即相同 -->
+
+<div id="d1">id选择器</div>
+
+<p class="p1">类选择器</p>
+<div id="d2">
+    <div> 零零零零<div>零零22零零</div> </div>
+    <div> 111</div>
+
+</div>
+
+
+<div>
+    <span class="price">子元素内容</span>
+    <ul>
+        <li><span>1</span></li>
+        <li class="price">2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <p>并集选择器</p>
+    <h3 id="h3">并集选择器</h3>
+    <a class="a">并集选择器</a>
+    <h1>biaoti</h1>
+    <p> 相邻兄弟选择器</p>
+    <p> 相邻兄弟选择器</p>
+    <p> 相邻兄弟选择器</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+#d02 ul{
+    height: 40px;
+    width: 1460px;
+    background: #333333;
+}
+#d02 li{
+    list-style-type: none;
+    float: left;
+    line-height: 40px;
+    width: 100px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a{
+    color: #ACACAC;
+    text-decoration: none;
+}
+.a{
+    margin-left: 120px;
+    background: #CF152D;
+}
