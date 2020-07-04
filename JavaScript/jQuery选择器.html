@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<div id="d1"></div>
+<button class="cb1">单击变色</button>
+<script>
+    $(".cb1").click(
+        function () {
+            $("#d1").css("background-color","#c7edcc")
+        }
+    )
+</script>
+</body>
+</html>

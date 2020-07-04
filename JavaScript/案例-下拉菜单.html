@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-3.4.1.min.js"> </script>
+</head>
+<body>
+
+<div id="menu">
+    <a href="#">我的当当</a>
+    <ul id="menu_ul" style="display: none">
+        <li>我的订单</li>  
+        <li>我的收藏</li>
+        <li>我的礼品卡</li>
+        <li>我的积分卡</li>
+        <li>我的余额</li>
+    </ul>
+</div>
+<script>
+    //页面加载完成后 立即绑定事件
+    $(function () {
+        $("#menu").hover(
+            function(){
+                $("#menu").css("border","1px solid red")
+                $("#menu_ul").show()
+            },
+            //逗号前 鼠标移入 逗号后鼠标移出
+            function() {
+                $("#menu").css("border","none")
+                $("#menu_ul").hide();
+            }
+        )
+    })
+
+</script>
+</body>
+</html>

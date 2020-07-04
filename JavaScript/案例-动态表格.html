@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<input type="button" value="点击增加一列表格" name="bt">
+<script>
+    $("input[name='bt']").click(
+        function () {
+            createTable()
+        }
+    )
+    function createTable() {
+        // 1.创建Table元素
+        var $table = $("<table width='100' border='2'></table>");
+        // 2.创建tr对象
+        var $tr = $("<tr></tr>");
+        // 3. 创建td
+        var $td = $("<td>新的一列</td>");
+        // 4.将td放到tr上 tr放到 table上
+        $tr.append($td);
+        $table.append($tr);
+        $("body").append($table);
+    }
+</script>
+</body>
+</html>
