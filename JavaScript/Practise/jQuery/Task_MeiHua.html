@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MeiHua</title>
+    <script type="text/javascript" src="../../../js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("tr:even").css("background-color","#CCC").eq(1).css("background-color",'#FF99CC');
+            $(".more").click(function () {
+                $('tr:gt(4)').toggle();
+            })
+        })
+
+
+
+    </script>
+
+</head>
+<body>
+<h3>乐淘，发现更多生活，快乐就在你身边...</h3>
+<h4>近期热门......<a href='#' class='more'>（更多）</a></h4>
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>语言之庭</td>
+    </tr>
+    <tr>
+        <td>斯托克</td>
+    </tr>
+    <tr>
+        <td>迷醉</td>
+    </tr>
+    <tr>
+        <td>巨人携手皆可</td>
+    </tr>
+    <tr>
+        <td>副作用</td>
+    </tr>
+    <tr>
+        <td>血肉之躯</td>
+    </tr>
+    <tr>
+        <td>7号房的礼物</td>
+    </tr>
+    <tr>
+        <td>惊声笑</td>
+    </tr>
+</table>
+<a href='#' class='more'>更多排名</a>
+</body>
+</html>
