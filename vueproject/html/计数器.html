@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Template</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../bootstrap3/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap3/font-awesome-4.7.0/css/font-awesome.css"/>
+    <script type="text/javascript" src="../bootstrap3/jquery.min.js"></script>
+    <script src="../js/vue.js"></script>
+    <style>
+        button{
+            width: 150px;
+            height: 50px;
+            float: left;
+        }
+        span{
+            float:left;
+            width: 100px;
+            height: 50px;
+            display: block;
+            background:#bcd8f1;
+            text-align: center;
+            font-size: 30px;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+<div id="app" class="container">
+    <button class="btn btn-info" @click="sub">-</button>
+    <span>{{num}}</span>
+    <button class="btn btn-info" @click="add">+</button>
+</div>
+<script>
+    var vue = new Vue({
+        el:"#app",
+        data:{
+            num:1
+        },
+        methods:{
+            sub:function () {
+               if(this.num>0){
+                   this.num--
+               }else{
+                   alert("你脑子有病吧")
+               }
+            },
+            add:function () {
+                if(this.num<10){
+                    this.num++
+                }else{
+                    alert("你有那么多钱么")
+                }
+            },
+        }
+    })
+</script>
+</body>
+<script type="text/javascript" src="../bootstrap3/js/bootstrap.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/holder.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/html5shiv.min.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/respond.min.js"></script>
+</html>

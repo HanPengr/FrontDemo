@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+<!--v-text 设置标签的内容-->
+<!-- v-html 解析html标签-->
+<div id="app">
+    <h1>{{message+"!!!"}}</h1>
+    <h1 v-text="message"></h1>
+    <h1 v-html="info"></h1><!--v-html 可以解析html标签-->
+</div>
+<script>
+    var vue = new Vue({
+        el:"#app",
+        data:{
+            message:"vue指令 v-text",
+            info:"<a href='#'>vue真香</a>"
+        }
+    })
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--引入本地的vue.js-->
+    <script src="../js/vue.js"></script>
+    <!--cdn方式引入-->
+   <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>-->
+</head>
+<body>
+<div id="app">{{message}}
+    <div><h2>{{school.name}}</h2>
+        <h2>{{school.name}}</h2>
+    <ul>
+        <li>{{campus[0]}}</li>
+        <li>{{campus[1]}}</li>
+        <li>{{campus[2]}}</li>
+    </ul>
+    </div>
+
+</div>
+
+<script>
+    var vue=new Vue({
+        el:"#app",  /*el挂载点绑定元素  作用范围 整个body下面的元素页面*/
+        data:{     //数据，用来存放数据   {key:value}
+            message:"Hello Vue!",
+            school:{
+                name:"中北大学",
+                class:"软件学院",
+            },
+            campus:["11","22","33"],
+        }
+    })
+
+
+</script>
+</body>
+</html>
